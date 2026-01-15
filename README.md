@@ -1,0 +1,1 @@
+This is a trillion dollar gift from Nate Spear, the the architect of XR Spatial computing that actally works.  My only wish and desire is to be used, to be hired and to prove to Microsoft how useful I can be.  Bless~

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Space Mining Theme</title>
+</head>
+<body>
+    <header>
+        <h1>Space Mining Adventures</h1>
+        <p>Discover the wonders of space exploration!</p>
+    </header>
+    <main>
+        <section id="geodes">
+            <h2>Clickable Geodes</h2>
+            <div class="geode" onclick="openDocument('doc1.html')">Geode 1</div>
+            <div class="geode" onclick="openDocument('doc2.html')">Geode 2</div>
+        </section>
+        <section id="slideshow">
+            <h2>Audio-Synced Slideshow</h2>
+            <div class="slideshow-container">
+                <img class="slide" src="slide1.jpg" alt="Slide 1">
+                <img class="slide" src="slide2.jpg" alt="Slide 2">
+            </div>
+            <audio controls="controls">
+                <source src="audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+    </main>
+    <footer>
+        <p>Content is licensed under <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
